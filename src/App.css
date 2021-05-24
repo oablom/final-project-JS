@@ -1,0 +1,17 @@
+@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Navbar\Navbar.css);
+@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Footer\Footer.css);
+@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Products\Products.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+  width: 100vw;
+  position: relative;
+}
+/*# sourceMappingURL=App.css.map */

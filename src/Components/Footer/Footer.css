@@ -1,0 +1,102 @@
+.footer-container {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 15.375rem;
+}
+
+.footer {
+  max-width: 73.6875rem;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer .social-media-link {
+  display: inline-block;
+  margin: 0.5rem;
+  width: 2rem;
+  min-height: 2rem;
+}
+
+.footer-leftSide {
+  max-width: 26.5625rem;
+  width: 100%;
+}
+
+.footer-rightSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  right: 0;
+}
+
+.footer-div-connect {
+  margin-left: 5rem;
+  height: 15.375rem;
+  width: 16.5rem;
+  position: relative;
+}
+
+.footer-div-connect h3 {
+  font-weight: 900;
+  font-size: 1.75rem;
+  line-height: 0;
+}
+
+.footer-div-connect .mail {
+  font-weight: normal;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.footer-div-findus {
+  margin-left: 6rem;
+  height: 15.375rem;
+  position: relative;
+}
+
+.footer-div-findus h3 {
+  font-weight: 900;
+  font-size: 1.75rem;
+  line-height: 0;
+}
+
+.footer-div-findus .phone {
+  font-weight: 900;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 0.3rem;
+  right: 0.5rem;
+}
+
+.footer-div-findus h6 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+/*# sourceMappingURL=Footer.css.map */

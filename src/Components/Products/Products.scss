@@ -1,0 +1,24 @@
+.products-container {
+  width: 100vw;
+  margin: auto;
+}
+
+.products {
+  width: 73.6875rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.products-header {
+  height: 19.625rem;
+  width: 100%;
+  background-color: blue;
+}
+
+.products-slogan {
+  height: 15rem;
+  width: 100%;
+  background-color: red;
+}
