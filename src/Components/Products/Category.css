@@ -1,4 +1,3 @@
-@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Products\Card.css);
 .products-category {
   display: inline-block;
   overflow: hidden;
@@ -48,56 +47,4 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.products-container {
-  width: 100vw;
-  margin: auto;
-}
-
-.products {
-  width: 73.6875rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.products-header {
-  height: 19.625rem;
-  width: 100%;
-  background-color: blue;
-}
-
-.products-header img {
-  width: 100%;
-}
-
-.products-slogan {
-  height: 15rem;
-  width: 100%;
-  text-align: center;
-  margin: auto;
-}
-
-.products-slogan h3 {
-  font-style: italic;
-  font-weight: 900;
-  font-size: 2.875rem;
-  margin-bottom: 0.625rem;
-}
-
-.products-slogan h6 {
-  font-weight: normal;
-  font-size: 1.4375rem;
-  width: 37.4375rem;
-  margin: auto;
-  margin-top: 0;
-}
-/*# sourceMappingURL=Products.css.map */
+/*# sourceMappingURL=Category.css.map */

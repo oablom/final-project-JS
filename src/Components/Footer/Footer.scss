@@ -1,6 +1,7 @@
 .footer-container {
   width: 100vw;
   display: flex;
+  position: absolute;
   justify-content: center;
   height: 15.375rem;
 }
@@ -8,9 +9,7 @@
 .footer {
   max-width: 73.6875rem;
   width: 100%;
-
   bottom: 0;
-  position: absolute;
   display: flex;
   align-items: center;
   margin-bottom: 1rem;

@@ -1,0 +1,20 @@
+.products-card {
+  width: 33.1875rem;
+  height: 13.625rem;
+}
+
+.products-card img {
+  width: 33.1875rem;
+  height: 13.625rem;
+  position: absolute;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.products-card h4 {
+  font-size: 1.875rem;
+  color: white;
+  z-index: 2;
+  margin: auto;
+}
+/*# sourceMappingURL=Card.css.map */

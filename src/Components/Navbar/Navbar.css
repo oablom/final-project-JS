@@ -6,7 +6,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 171px;
+  height: 10.6875rem;
 }
 
 .navbar {
@@ -17,6 +17,7 @@
   width: 73.6875rem;
   position: fixed;
   margin: 0 auto;
+  z-index: 200;
 }
 
 .leftSide {
