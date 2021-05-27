@@ -1,21 +1,3 @@
-@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Navbar\Navbar.css);
-@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Footer\Footer.css);
-@import url(c:\Users\Pc\IT-Programmering\javascript\final-project\final-project\src\Components\Products\Products.css);
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-size: 60%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100vw;
-  position: relative;
-}
-
 .picked-product-component-header {
   font-size: 4rem;
   font-style: normal;
@@ -185,4 +167,4 @@ body {
   width: 2.625rem;
   height: 2.1875rem;
 }
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=PickedProduct.css.map */
