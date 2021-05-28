@@ -19,7 +19,7 @@ function Footer() {
             <h3>Connect</h3>
             {/* line */}
             <svg
-              width="264"
+              width="16.5rem"
               height="1"
               viewBox="0 0 264 1"
               fill="none"
@@ -44,7 +44,7 @@ function Footer() {
             <h3>Find us</h3>
             {/* line */}
             <svg
-              width="264"
+              width="16.5rem"
               height="1"
               viewBox="0 0 264 1"
               fill="none"

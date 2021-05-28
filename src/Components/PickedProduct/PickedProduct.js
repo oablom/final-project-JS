@@ -47,9 +47,14 @@ function Picked() {
               </select>
             </div>
             <div className="buy-bar">
-              <img src={Minus} className="plusminus" alt="" />
-              {/* komponent */}
-              <img src={Plus} className="plusminus" alt="" />
+              <div className="plusminus-div">
+                <img src={Minus} className="plusminus" alt="" />
+                {/* komponent antal */} 2
+                <img src={Plus} className="plusminus" alt="" />
+              </div>
+              <div className="price-div">{/* komponent pris */} 40$</div>
+
+              <button className="buy-btn">BUY</button>
             </div>
           </div>
           <div className="nutritional-info">
