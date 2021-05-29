@@ -33,7 +33,7 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/products">
                 PRODUCT
               </Link>
             </li>

@@ -18,7 +18,7 @@ function Products() {
             Vokalia and Consonantia, there live the blind texts.
           </h6>
         </div>
-        <Category type="WHEY AND CASEIN" />
+        <Category />
       </div>
     </div>
   );

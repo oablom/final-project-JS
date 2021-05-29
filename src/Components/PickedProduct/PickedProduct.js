@@ -1,11 +1,19 @@
 import React from "react";
 import Image from "./product-picked.png";
-import Plus from "./plus.png";
-import Minus from "./minus.png";
+// import Plus from "./plus.png";
+// import Minus from "./minus.png";
 import "../../App.css";
 // import PickedProductComponent from "./PickedProductComponent";
+// import PickedProductComponent2 from "./PickedProductComponent2";
+// import PickedProductComponent3 from "./PickedProductComponent3";
+// import PickedProductComponent4 from "./PickedProductComponent4";
 
-function Picked() {
+function Picked(props) {
+  // const picked1 = <PickedProductComponent />;
+  // const picked2 = <PickedProductComponent2 />;
+  // const picked3 = <PickedProductComponent3 />;
+  // const picked4 = <PickedProductComponent4 />;
+
   return (
     <div className="picked-product-container">
       <div className="picked-product">
@@ -34,29 +42,7 @@ function Picked() {
         </div>
 
         <div className="right">
-          <div className="picked-product-component">
-            {/* Detta funkar ej */}
-            {/* {PickedProductComponent} */}
-            <h2 className="picked-product-component-header">SOY ISOLATE 1KG</h2>
-            <h5 className="picked-product-component-flavour">Flavour</h5>
-            <div class="dropdown">
-              <select id="flavour" name="flavour">
-                <option value="Vanilla">Vanilla</option>
-                <option value="Chocolate">Chocolate</option>
-                <option value="Strawberry">Strawberry</option>
-              </select>
-            </div>
-            <div className="buy-bar">
-              <div className="plusminus-div">
-                <img src={Minus} className="plusminus" alt="" />
-                {/* komponent antal */} 2
-                <img src={Plus} className="plusminus" alt="" />
-              </div>
-              <div className="price-div">{/* komponent pris */} 40$</div>
-
-              <button className="buy-btn">BUY</button>
-            </div>
-          </div>
+          {props.type}
           <div className="nutritional-info">
             <div className="nutritional-info-header">
               Nutritional info | Description | Ingredients

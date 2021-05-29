@@ -3,6 +3,8 @@
   font-style: normal;
   font-weight: 900;
   line-height: 4.6875rem;
+  -webkit-transform: translateY(-2.5rem);
+          transform: translateY(-2.5rem);
 }
 
 .picked-product-container {
@@ -137,7 +139,8 @@
   font-size: 3.125rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 4.6875rem;
+  line-height: 3.125rem;
+  height: 70px;
 }
 
 .picked-product-component .picked-product-component-flavour {
@@ -179,7 +182,7 @@
           justify-content: space-between;
   width: 90%;
   margin: auto;
-  margin-top: 3.125rem;
+  margin-top: 1.875rem;
   font-size: 1.6875rem;
   font-style: normal;
   font-weight: 900;
@@ -218,6 +221,11 @@
 }
 
 .buy-btn:hover {
+  -webkit-box-shadow: 0.3125rem 0.3125rem 0.125rem rgba(33, 33, 33, 0.5);
+          box-shadow: 0.3125rem 0.3125rem 0.125rem rgba(33, 33, 33, 0.5);
+}
+
+.plusminus:hover {
   -webkit-box-shadow: 0.3125rem 0.3125rem 0.125rem rgba(33, 33, 33, 0.5);
           box-shadow: 0.3125rem 0.3125rem 0.125rem rgba(33, 33, 33, 0.5);
 }

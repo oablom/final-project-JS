@@ -3,5 +3,7 @@
   font-style: normal;
   font-weight: 900;
   line-height: 4.6875rem;
+  -webkit-transform: translateY(-2.5rem);
+          transform: translateY(-2.5rem);
 }
 /*# sourceMappingURL=PickedProductComponent.css.map */

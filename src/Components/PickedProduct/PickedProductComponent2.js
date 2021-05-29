@@ -10,7 +10,7 @@ function PickedProductComponent() {
   return (
     <div className="picked-product-component">
       <h2 className="picked-product-component-header">
-        WHEY CONCENTRATE <br /> 1KG
+        WHEY ISOLATE <br /> 1KG
       </h2>
       <h5 className="picked-product-component-flavour">Flavour</h5>
       <div class="dropdown">
@@ -26,8 +26,8 @@ function PickedProductComponent() {
           {/* komponent antal */} 1
           <img src={Plus} className="plusminus" alt="" />
         </div>
-        <div className="price-div"> {/* {categories.price1} */}49$</div>
-
+        <div className="price-div">99$</div>
+        {/* {categories.price} */}
         <button className="buy-btn">BUY</button>
       </div>
     </div>

@@ -6,6 +6,7 @@ function Card(props) {
     <div className="products-card">
       <img src={Image} alt="" />
       <h4>{props.product}</h4>
+      {/* <p>{props.price}</p> */}
     </div>
   );
 }
