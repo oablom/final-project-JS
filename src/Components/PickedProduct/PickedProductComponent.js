@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Plus from "./plus.png";
 import Minus from "./minus.png";
-// import { data } from "../data";
+import { data } from "../data";
 
 function PickedProductComponent() {
   // const [categories, setCategories] = useState({ data });
-  // const [categories, setCategories] = useState( data );
+  const [price, setPrice] = useState(data);
 
   return (
     <div className="picked-product-component">
@@ -23,7 +23,7 @@ function PickedProductComponent() {
       <div className="buy-bar">
         <div className="plusminus-div">
           <img src={Minus} className="plusminus" alt="" />
-          {/* komponent antal */} 1
+          {price.price} 1
           <img src={Plus} className="plusminus" alt="" />
         </div>
         <div className="price-div"> {/* {categories.price1} */}49$</div>

@@ -17,6 +17,7 @@ function App() {
   const picked2 = <PickedProductComponent2 />;
   const picked3 = <PickedProductComponent3 />;
   const picked4 = <PickedProductComponent4 />;
+
   // const pickedArray = [
   //   <PickedProductComponent />,
   //   <PickedProductComponent2 />,
@@ -37,6 +38,7 @@ function App() {
   //     picked: <PickedProductComponent4 />,
   //   },
   // ];
+  //   const pickedArray = [picked1, picked2, picked3, picked4];
 
   // const [picked, setPicked] = useState(pickedArray);
 
