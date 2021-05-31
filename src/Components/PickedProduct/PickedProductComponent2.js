@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import Plus from "./plus.png";
 import Minus from "./minus.png";
-// import { data } from "../data";
+import { data } from "../data";
 
 function PickedProductComponent() {
-  // const [categories, setCategories] = useState({ data });
-  // const [categories, setCategories] = useState( data );
+  const [categories, setCategories] = useState(data);
 
   return (
     <div className="picked-product-component">

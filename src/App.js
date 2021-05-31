@@ -18,30 +18,6 @@ function App() {
   const picked3 = <PickedProductComponent3 />;
   const picked4 = <PickedProductComponent4 />;
 
-  // const pickedArray = [
-  //   <PickedProductComponent />,
-  //   <PickedProductComponent2 />,
-  //   <PickedProductComponent3 />,
-  //   <PickedProductComponent4 />,
-  // ];
-  // const pickedArray = [
-  //   {
-  //     picked: <PickedProductComponent />,
-  //   },
-  //   {
-  //     picked: <PickedProductComponent2 />,
-  //   },
-  //   {
-  //     picked: <PickedProductComponent3 />,
-  //   },
-  //   {
-  //     picked: <PickedProductComponent4 />,
-  //   },
-  // ];
-  //   const pickedArray = [picked1, picked2, picked3, picked4];
-
-  // const [picked, setPicked] = useState(pickedArray);
-
   return (
     <React.Fragment>
       <Router>
@@ -53,15 +29,7 @@ function App() {
             render={() => <PickedProduct type={picked1} />}
           />
           <Route path="/navbar/products" exact component={Products} />
-          {/* {picked.map((p) => {
-            return (
-              <Route
-                path="/picked-product/pickedproduct1"
-                exact
-                render={() => <PickedProduct type={p.picked} />}
-              />
-            );
-          })} */}
+
           <Route
             path="/picked-product/pickedproduct1"
             exact
@@ -109,3 +77,38 @@ export default App;
   </Route>{" "}
 </Route>{" "}
 </Route> */
+
+// const pickedArray = [
+//   <PickedProductComponent />,
+//   <PickedProductComponent2 />,
+//   <PickedProductComponent3 />,
+//   <PickedProductComponent4 />,
+// ];
+// const pickedArray = [
+//   {
+//     picked: <PickedProductComponent />,
+//   },
+//   {
+//     picked: <PickedProductComponent2 />,
+//   },
+//   {
+//     picked: <PickedProductComponent3 />,
+//   },
+//   {
+//     picked: <PickedProductComponent4 />,
+//   },
+// ];
+//   const pickedArray = [picked1, picked2, picked3, picked4];
+
+// const [picked, setPicked] = useState(pickedArray);
+{
+  /* {picked.map((p) => {
+            return (
+              <Route
+                path="/picked-product/pickedproduct1"
+                exact
+                render={() => <PickedProduct type={p.picked} />}
+              />
+            );
+          })} */
+}

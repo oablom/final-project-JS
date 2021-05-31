@@ -29,22 +29,22 @@ function Navbar() {
           <ul>
             <li>
               <Link className="link" to="/">
-                HOME
+                <h3> HOME</h3>
               </Link>
             </li>
             <li>
               <Link className="link" to="/navbar/products">
-                PRODUCT
+                <h3> PRODUCT</h3>
               </Link>
             </li>
             <li>
               <Link className="link" to="/">
-                ABOUT
+                <h3> ABOUT</h3>
               </Link>
             </li>
             <li>
               <Link className="link" to="/">
-                CONTACT
+                <h3> CONTACT</h3>
               </Link>
             </li>
             <li>
