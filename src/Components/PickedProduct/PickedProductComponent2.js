@@ -6,6 +6,12 @@ import { pickedproduct2 } from "../data";
 function PickedProductComponent() {
   const [categories, setCategories] = useState(pickedproduct2);
 
+  // const clickHandler = () => {
+  //   if (categories > 10) {
+  //     categories.qty++;
+  //   }
+  // }; funkar ej....
+
   return (
     <div className="picked-product-component">
       <h2 className="picked-product-component-header">
@@ -23,7 +29,12 @@ function PickedProductComponent() {
         <div className="plusminus-div">
           <img src={Minus} className="plusminus" alt="" />
           {categories.qty}
-          <img src={Plus} className="plusminus" alt="" />
+          <img
+            src={Plus}
+            className="plusminus"
+            // onClick={clickHandler()}
+            alt=""
+          />
         </div>
         <div className="price-div">{categories.price + "$"}</div>
         <button className="buy-btn">BUY</button>
