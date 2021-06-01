@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import Plus from "./plus.png";
 import Minus from "./minus.png";
-import { data } from "../data";
+import { pickedproduct1 } from "../data";
 
 function PickedProductComponent() {
-  const [categories, setCategories] = useState({ data });
-  // const [price, setPrice] = useState(data);
+  const [categories, setCategories] = useState(pickedproduct1);
 
   return (
     <div className="picked-product-component">
       <h2 className="picked-product-component-header">
-        WHEY CONCENTRATE <br /> 1KG
+        {categories.product} <br /> 1KG
       </h2>
       <h5 className="picked-product-component-flavour">Flavour</h5>
       <div className="dropdown">
@@ -23,11 +22,10 @@ function PickedProductComponent() {
       <div className="buy-bar">
         <div className="plusminus-div">
           <img src={Minus} className="plusminus" alt="" />
-          1
+          {categories.qty}
           <img src={Plus} className="plusminus" alt="" />
         </div>
-        <div className="price-div"> {categories.price1}49$</div>
-
+        <div className="price-div">{categories.price + "$"}</div>
         <button className="buy-btn">BUY</button>
       </div>
     </div>

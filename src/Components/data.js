@@ -24,3 +24,26 @@ export const data = [
     f3: "Strawberry",
   },
 ];
+
+export const pickedproduct1 = {
+  product: "WHEY CONCENTRATE",
+  qty: 1,
+  price: 49,
+};
+
+export const pickedproduct2 = {
+  product: "WHEY ISOLATE",
+  qty: 1,
+  price: 99,
+};
+export const pickedproduct3 = {
+  product: "WHEY HYDROLYSATE",
+  qty: 1,
+  price: 149,
+};
+
+export const pickedproduct4 = {
+  product: "CASEIN ISOLATE",
+  qty: 1,
+  price: 199,
+};

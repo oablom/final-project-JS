@@ -71,6 +71,13 @@
   right: 0.5rem;
 }
 
+.footer-div-connect .mail svg {
+  width: 2rem;
+  height: 2rem;
+  -webkit-transform: translate(-0.3125rem, 0.4375rem);
+          transform: translate(-0.3125rem, 0.4375rem);
+}
+
 .footer-div-findus {
   margin-left: 6rem;
   height: 15.375rem;
@@ -89,6 +96,13 @@
   position: absolute;
   bottom: 0.3rem;
   right: 0.5rem;
+}
+
+.footer-div-findus .phone svg {
+  width: 2rem;
+  height: 2rem;
+  -webkit-transform: translate(-0.3125rem, 0.3125rem);
+          transform: translate(-0.3125rem, 0.3125rem);
 }
 
 .footer-div-findus h6 {
