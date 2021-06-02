@@ -9,7 +9,7 @@ import PickedProductComponent from "./Components/PickedProduct/PickedProductComp
 import PickedProductComponent2 from "./Components/PickedProduct/PickedProductComponent2";
 import PickedProductComponent3 from "./Components/PickedProduct/PickedProductComponent3";
 import PickedProductComponent4 from "./Components/PickedProduct/PickedProductComponent4";
-import { data } from "./Components/data";
+// import { data } from "./Components/data";
 
 // import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
 

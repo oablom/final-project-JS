@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookSquare,
@@ -12,7 +13,9 @@ function Footer() {
     <div className="footer-container">
       <div className="footer">
         <div className="footer-leftSide">
-          <h1 className="logo">Sportify</h1>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <h1 className="logo">Sportify</h1>
+          </Link>
         </div>
         <div className="footer-rightSide">
           <div className="footer-div-connect">

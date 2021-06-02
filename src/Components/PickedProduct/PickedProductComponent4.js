@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Plus from "./plus.png";
-import Minus from "./minus.png";
+// import Plus from "./plus.png";
+// import Minus from "./minus.png";
 import { pickedproduct } from "../data";
 
 function PickedProductComponent() {
@@ -16,9 +16,9 @@ function PickedProductComponent() {
       <h5 className="picked-product-component-flavour">Flavour</h5>
       <div className="dropdown">
         <select id="flavour" name="flavour">
-          <option value="Vanilla">Vanilla</option>
-          <option value="Chocolate">Chocolate</option>
-          <option value="Strawberry">Strawberry</option>
+          <option value="Vanilla">{protein.flavour1}</option>
+          <option value="Chocolate">{protein.flavour2}</option>
+          <option value="Strawberry">{protein.flavour3}</option>
         </select>
       </div>
       <div className="buy-bar">

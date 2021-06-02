@@ -7,7 +7,10 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="leftSide">
-          <h1 className="logo">Sportify</h1>
+          <Link className="link" to="/" style={{ textDecoration: "none" }}>
+            <h1 className="logo">Sportify</h1>
+          </Link>
+
           <div className="search-bar-div">
             <svg
               className="search-icon"

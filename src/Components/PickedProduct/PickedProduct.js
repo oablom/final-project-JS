@@ -19,11 +19,7 @@ function Picked(props) {
   return (
     <>
       <div className="backward">
-        <Link
-          className="link"
-          to="/navbar/products"
-          style={{ textDecoration: "none" }}
-        >
+        <Link to="/navbar/products" style={{ textDecoration: "none" }}>
           <p> &lt;&lt; Pick another product </p>
         </Link>
       </div>
