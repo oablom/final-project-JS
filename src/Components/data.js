@@ -47,3 +47,30 @@ export const pickedproduct4 = {
   qty: 1,
   price: 199,
 };
+
+export const pickedproduct = [
+  {
+    product: "WHEY CONCENTRATE",
+    qty: 1,
+    price: 49,
+    id: 1,
+  },
+  {
+    product: "WHEY ISOLATE",
+    qty: 1,
+    price: 99,
+    // key: 2,
+  },
+  {
+    product: "CASEIN HYDROLYSATE",
+    qty: 1,
+    price: 149,
+    // key: 3,
+  },
+  {
+    product: "CASEIN ISOLATE",
+    qty: 1,
+    price: 199,
+    // key: 4,
+  },
+];

@@ -1,21 +1,17 @@
 import React, { useState } from "react";
 import Plus from "./plus.png";
 import Minus from "./minus.png";
-import { pickedproduct2 } from "../data";
+import { pickedproduct } from "../data";
 
 function PickedProductComponent() {
-  const [categories, setCategories] = useState(pickedproduct2);
+  const first = pickedproduct[1];
 
-  // const clickHandler = () => {
-  //   if (categories > 10) {
-  //     categories.qty++;
-  //   }
-  // }; funkar ej....
+  const [protein, setProtein] = useState(first);
 
   return (
     <div className="picked-product-component">
       <h2 className="picked-product-component-header">
-        {categories.product} <br /> 1KG
+        {protein.product} <br /> 1KG
       </h2>
       <h5 className="picked-product-component-flavour">Flavour</h5>
       <div className="dropdown">
@@ -26,18 +22,18 @@ function PickedProductComponent() {
         </select>
       </div>
       <div className="buy-bar">
-        <div className="plusminus-div">
+        {/* <div className="plusminus-div">
           <img src={Minus} className="plusminus" alt="" />
-          {categories.qty}
+          {protein.qty}
           <img
             src={Plus}
             className="plusminus"
             // onClick={clickHandler()}
             alt=""
-          />
-        </div>
-        <div className="price-div">{categories.price + "$"}</div>
-        <button className="buy-btn">BUY</button>
+          /> */}
+
+        <div className="price-div">{protein.price + "$"}</div>
+        <button className="buy-btn">ADD TO CART</button>
       </div>
     </div>
   );
@@ -49,3 +45,9 @@ export default PickedProductComponent;
       <h2 className="picked-product-component-header">SOY ISOLATE 1KG</h2>
       <h5 className="picked-product-component-flavour">Flavour</h5>
     </div> */
+
+// const clickHandler = () => {
+//     categories.qty++;
+// }; funkar ej....
+
+//const products = [{product:  "whey isolate", qty: 1, price 99}];
