@@ -1,9 +1,23 @@
 @import "./PickedProductComponent.scss";
+.backward {
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
 
+  p {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}
 .picked-product-container {
   width: 100vw;
   margin: auto;
   margin-bottom: 6.25rem;
+  position: relative;
 }
 
 .picked-product {
@@ -61,6 +75,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 
   .nutritional-info-header {
     width: 34.375rem;
