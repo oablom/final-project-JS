@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="leftSide">
-          <Link className="link" to="/" style={{ textDecoration: "none" }}>
+          <Link className="link" to="/navbar/home" style={{ textDecoration: "none" }}>
             <h1 className="logo">Sportify</h1>
           </Link>
 
