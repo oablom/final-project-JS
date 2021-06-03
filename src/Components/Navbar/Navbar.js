@@ -31,7 +31,7 @@ function Navbar() {
         <div className="rightSide">
           <ul>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/home">
                 <h3> HOME</h3>
               </Link>
             </li>
@@ -41,12 +41,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/about">
                 <h3> ABOUT</h3>
               </Link>
             </li>
             <li>
-              <Link className="link" to="/navbar/modal">
+              <Link className="link" to="/navbar/contact">
                 <h3> CONTACT</h3>
               </Link>
             </li>

@@ -1,3 +1,20 @@
+* {
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   font-size: 60%;
+   cursor: pointer;
+ }
+ 
+ body {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+ } 
+
+
+
 .about__container {
     display: flex;
     justify-content: center;
@@ -22,6 +39,9 @@
    .header-text_about{
     display: flex;
     align-self: flex-start;
+    color:teal;
+    font-weight: 400;
+    font-size: 3rem;
    }
     
     
@@ -39,4 +59,31 @@
    .about-text {
       font-size: 1.5rem;
    }
+   
+   .stock-photo {
+      max-width: 100%;
+      width: 130rem;
+      height: 80rem;   
+   }
+    
+   .carousel-container {
+    display: flex;
+    justify-content: center;
+   }
+    
+   .carousel-head_text{
+    font-size: 5rem;
+    color:teal;
+   }
+    
+   .carousel-text{
+    font-size: 3.5rem;
+   }
+    
+   .carousel-caption {
+      bottom:25rem;
+      color:black;
+      font-weight: 600;
+   }
+
    

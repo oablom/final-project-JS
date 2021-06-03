@@ -10,8 +10,10 @@ import PickedProductComponent2 from "./Components/PickedProduct/PickedProductCom
 import PickedProductComponent3 from "./Components/PickedProduct/PickedProductComponent3";
 import PickedProductComponent4 from "./Components/PickedProduct/PickedProductComponent4";
 // import { data } from "./Components/data";
-
+import Home from "./Components/Home/Home";
+import About from "./Components/Home/About";
 import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
+import ContactUs from "./Components/Contact/Contact";
 
 function App() {
   const picked1 = <PickedProductComponent />;
@@ -31,6 +33,9 @@ function App() {
           />
           <Route path="/navbar/products" exact component={Products} />
           <Route path="/navbar/shoppingcart" exact component={ShoppingCart} />
+          <Route path="/navbar/home" exact component={Home} />
+          <Route path="/navbar/about" exact component={About} />
+          <Route path="/navbar/contact" exact component={ContactUs} />
 
           <Route
             path="/picked-product/pickedproduct1"

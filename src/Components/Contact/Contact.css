@@ -1,4 +1,21 @@
+/* VET EJ HUR MAN GÖR MED SASS - GÖR SÅHÄR SÅ LÄNGE */
+
+* {
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   font-size: 60%;
+   cursor: pointer;
+ }
  
+ body {
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+ } 
+
+
 .all-contact_page {
     max-width: 100%;
     height: 1000px;

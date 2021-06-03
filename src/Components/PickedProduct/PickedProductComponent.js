@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import Plus from "./plus.png";
 // import Minus from "./minus.png";
 import { pickedproduct } from "../data";
-import Modal from "react-modal";
+import Modal from 'react-modal';
 import ShoppingCart from "../../Components/Shopping-cart/ShoppingCart";
 import { items1 } from "../data";
 

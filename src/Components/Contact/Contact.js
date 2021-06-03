@@ -1,8 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css'
-import Shop from "../Shopping-cart/Shop";
-import ModalCart from "../Modal/Modal";
+
+
+
  
  
 export default function ContactUs() {
@@ -23,7 +24,7 @@ export default function ContactUs() {
    <>
    <section className="all-contact_page">
    <div className="img__box">
-     <img src="/images/contact-pic.png" alt="" className="contact_pic"/>
+     <img src="/images/contact_pic.png" alt="" className="contact_pic"/>
    </div>
    <div className="form__box">
    <form className="contact_form" id="contact-form" onSubmit={sendEmail}>
@@ -38,8 +39,7 @@ export default function ContactUs() {
    </form>
    </div>
    </section>
-   <Shop />
-
+  
  
    </>
  );
