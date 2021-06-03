@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.css";
-import Image from "./supplement.png";
+import Image from "./supplement1.jpg";
 
 import Category from "./Category";
 

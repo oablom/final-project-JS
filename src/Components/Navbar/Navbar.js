@@ -7,7 +7,10 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="leftSide">
-          <h1 className="logo">Sportify</h1>
+          <Link className="link" to="/" style={{ textDecoration: "none" }}>
+            <h1 className="logo">Sportify</h1>
+          </Link>
+
           <div className="search-bar-div">
             <svg
               className="search-icon"
@@ -43,12 +46,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/modal">
                 <h3> CONTACT</h3>
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/shoppingcart">
                 <span className="shopping-cart">
                   {" "}
                   <svg

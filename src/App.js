@@ -9,8 +9,9 @@ import PickedProductComponent from "./Components/PickedProduct/PickedProductComp
 import PickedProductComponent2 from "./Components/PickedProduct/PickedProductComponent2";
 import PickedProductComponent3 from "./Components/PickedProduct/PickedProductComponent3";
 import PickedProductComponent4 from "./Components/PickedProduct/PickedProductComponent4";
+// import { data } from "./Components/data";
 
-// import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
+import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
 
 function App() {
   const picked1 = <PickedProductComponent />;
@@ -29,6 +30,7 @@ function App() {
             render={() => <PickedProduct type={picked1} />}
           />
           <Route path="/navbar/products" exact component={Products} />
+          <Route path="/navbar/shoppingcart" exact component={ShoppingCart} />
 
           <Route
             path="/picked-product/pickedproduct1"
@@ -101,8 +103,8 @@ export default App;
 //   const pickedArray = [picked1, picked2, picked3, picked4];
 
 // const [picked, setPicked] = useState(pickedArray);
-{
-  /* {picked.map((p) => {
+
+/* {picked.map((p) => {
             return (
               <Route
                 path="/picked-product/pickedproduct1"
@@ -111,4 +113,3 @@ export default App;
               />
             );
           })} */
-}
