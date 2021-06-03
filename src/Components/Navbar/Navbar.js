@@ -46,12 +46,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/modal">
                 <h3> CONTACT</h3>
               </Link>
             </li>
             <li>
-              <Link className="link" to="/">
+              <Link className="link" to="/navbar/shoppingcart">
                 <span className="shopping-cart">
                   {" "}
                   <svg
