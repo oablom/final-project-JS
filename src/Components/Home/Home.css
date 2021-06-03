@@ -1,0 +1,42 @@
+.about__container {
+    display: flex;
+    justify-content: center;
+    height: 90rem;
+   }
+    
+   .all__home {
+    height: 220rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+    
+   .about-text__box1 {
+    margin: 3rem;
+   }
+    
+   .about-text__box2 {
+    margin-top: 3rem;
+   }
+    
+   .header-text_about{
+    display: flex;
+    align-self: flex-start;
+   }
+    
+    
+    
+   .img-text__box {
+    width: 130rem;
+    max-width: 100%;
+    border-style: solid;
+   }
+    
+   .about_pic{
+   width: 100%;
+   }
+    
+   .about-text {
+      font-size: 1.5rem;
+   }
+   
