@@ -5,17 +5,8 @@ import { Link } from "react-router-dom";
 // import Minus from "./minus.png";
 import "../../App.css";
 import { text } from "@fortawesome/fontawesome-svg-core";
-// import PickedProductComponent from "./PickedProductComponent";
-// import PickedProductComponent2 from "./PickedProductComponent2";
-// import PickedProductComponent3 from "./PickedProductComponent3";
-// import PickedProductComponent4 from "./PickedProductComponent4";
 
 function Picked(props) {
-  // const picked1 = <PickedProductComponent />;
-  // const picked2 = <PickedProductComponent2 />;
-  // const picked3 = <PickedProductComponent3 />;
-  // const picked4 = <PickedProductComponent4 />;
-
   return (
     <>
       <div className="backward">

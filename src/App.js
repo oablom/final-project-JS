@@ -12,7 +12,6 @@ import PickedProductComponent4 from "./Components/PickedProduct/PickedProductCom
 // import { data } from "./Components/data";
 
 import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
-import Modal from "./Components/PickedProduct/Modal";
 
 function App() {
   const picked1 = <PickedProductComponent />;
@@ -32,7 +31,6 @@ function App() {
           />
           <Route path="/navbar/products" exact component={Products} />
           <Route path="/navbar/shoppingcart" exact component={ShoppingCart} />
-          <Route path="/navbar/modal" exact component={Modal} />
 
           <Route
             path="/picked-product/pickedproduct1"

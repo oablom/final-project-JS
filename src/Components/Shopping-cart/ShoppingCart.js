@@ -1,6 +1,5 @@
 import "../../App.css";
 import React, { useState, useEffect } from "react";
-import { items1 } from "../data";
 
 const Shop = (props) => {
   const [cart, setCart] = useState([]);
