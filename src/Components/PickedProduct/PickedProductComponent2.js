@@ -5,6 +5,7 @@ import { pickedproduct } from "../data";
 import Modal from "react-modal";
 import ShoppingCart from "../../Components/Shopping-cart/ShoppingCart";
 import { items2 } from "../data";
+import "./PickedProductComponent.css";
 
 Modal.setAppElement("#root");
 export default function ModalCart() {
@@ -40,9 +41,10 @@ export default function ModalCart() {
           content: {
             color: "white",
             backgroundColor: "black",
+            fontSize: "1.875rem",
             borderRadius: "3px",
             width: "700px",
-            height: "300px",
+            height: "500px",
             display: "flex",
             alignItems: "center",
             flexDirection: "column",
@@ -59,7 +61,7 @@ export default function ModalCart() {
         <h2>Checkout</h2>
         <p>This is your picked products</p>
         <div>
-          <button onClick={() => setModalisOpen(false)}>Close</button>
+          <button  onClick={() => setModalisOpen(false)}>Close</button>
         </div>
         <ShoppingCart item={items2} />
       </Modal>

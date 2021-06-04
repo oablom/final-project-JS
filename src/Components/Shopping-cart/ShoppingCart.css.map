@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AACI,SADK,CACL,CAAC,CAAC;EACF,SAAS,EAAE,MAAM;CACf;;AAHN,AAII,SAJK,CAIL,KAAK,CAAC;EACN,KAAK,EAAE,QAAQ;CACb",
     "sources": [
         "ShoppingCart.scss"
     ],

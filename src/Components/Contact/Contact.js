@@ -2,8 +2,6 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css'
 
-
-
  
  
 export default function ContactUs() {
@@ -28,11 +26,11 @@ export default function ContactUs() {
    </div>
    <div className="form__box">
    <form className="contact_form" id="contact-form" onSubmit={sendEmail}>
-     <input type="hidden" name="contact_number" />
+     <input className="contact-input" type="hidden" name="contact_number" />
      <label>Name</label>
-     <input type="text" name="user_name" />
+     <input className="contact-input" type="text" name="user_name" />
      <label>Email</label>
-     <input type="email" name="user_email" />
+     <input className="contact-input" type="email" name="user_email" />
      <label>Message</label>
      <textarea name="message" />
      <button type="submit" value="Send" className="contact-btn">Send</button>

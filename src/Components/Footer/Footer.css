@@ -60,7 +60,7 @@
 .footer-div-connect h3 {
   font-weight: 900;
   font-size: 1.75rem;
-  line-height: 0;
+  line-height: 1;
 }
 
 .footer-div-connect .mail {
@@ -74,8 +74,8 @@
 .footer-div-connect .mail svg {
   width: 2rem;
   height: 2rem;
-  -webkit-transform: translate(-0.3125rem, 0.4375rem);
-          transform: translate(-0.3125rem, 0.4375rem);
+  -webkit-transform: translate(-0.3125rem);
+          transform: translate(-0.3125rem);
 }
 
 .footer-div-findus {
@@ -87,7 +87,7 @@
 .footer-div-findus h3 {
   font-weight: 900;
   font-size: 1.75rem;
-  line-height: 0;
+  line-height: 1;
 }
 
 .footer-div-findus .phone {

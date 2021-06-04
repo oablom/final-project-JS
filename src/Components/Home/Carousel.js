@@ -15,8 +15,8 @@ function ControlledCarousel() {
        <Carousel.Item>
          <img
            className="stock-photo"
-           src="https://media.istockphoto.com/photos/protein-powder-for-fitness-and-diet-picture-id1062901980?b=1&k=6&m=1062901980&s=170667a&w=0&h=GKPSj1QCIynxpyjAP2iOvT9kXzsZnPgaDRwTh7q4eI0="
-           alt="First slide"
+           src="/images/slider1.jpg"
+           alt="First slide" 
          />
          <Carousel.Caption>
            <h2 className="carousel-head_text">Whey Protein</h2>
@@ -26,8 +26,8 @@ function ControlledCarousel() {
        <Carousel.Item>
          <img
            className="stock-photo"
-           src="https://media.istockphoto.com/photos/shaking-protein-drink-picture-id1144568145?b=1&k=6&m=1144568145&s=170667a&w=0&h=TtJi8R4MOUdCUj8dRVQ0ki3mI6TmurnzpvlXtY_4qsE="
-           alt="Second slide"
+           src="/images/slider2.jpg"
+           alt="Second slide" 
          />
           <Carousel.Caption>
            <h2 className="carousel-head_text">Casein Protein</h2>
@@ -37,7 +37,7 @@ function ControlledCarousel() {
        <Carousel.Item>
          <img
            className="stock-photo"
-           src="https://media.istockphoto.com/photos/protein-shake-in-bottle-powder-and-measuring-tape-on-grey-background-picture-id1202221398?b=1&k=6&m=1202221398&s=170667a&w=0&h=y4LXems8x5aVIIXSU97dffPrwuPgWz8EVFsAXDep-ns="
+           src="/images/slider3.jpg"
            alt="Third slide"
          />
           <Carousel.Caption>

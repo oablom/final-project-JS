@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=ShoppingCart.css.map */
+.checkout * {
+  font-size: 1.5rem;
+}
+
+.checkout input {
+  width: 6.875rem;
+}
+/*# sourceMappingURL=ShoppingCart.css.map */

@@ -14,6 +14,7 @@ import Home from "./Components/Home/Home";
 import About from "./Components/Home/About";
 import ShoppingCart from "./Components/Shopping-cart/ShoppingCart";
 import ContactUs from "./Components/Contact/Contact";
+import Checkout from "./Components/Checkout/Checkout";
 
 function App() {
   const picked1 = <PickedProductComponent />;
@@ -32,10 +33,11 @@ function App() {
             render={() => <PickedProduct type={picked1} />}
           />
           <Route path="/navbar/products" exact component={Products} />
-          <Route path="/navbar/shoppingcart" exact component={ShoppingCart} />
+          <Route path="/navbar/shoppingcart" exact component={Checkout} />
           <Route path="/navbar/home" exact component={Home} />
           <Route path="/navbar/about" exact component={About} />
           <Route path="/navbar/contact" exact component={ContactUs} />
+          <Route path="/checkout" exact component={Checkout} />
 
           <Route
             path="/picked-product/pickedproduct1"

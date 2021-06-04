@@ -10,6 +10,7 @@ function About() {
 <div className="img__box-about">
 <img src="/images/front-pic.png" alt="" className="about_pic"/>
 </div>
+
  
 <div className="about-text__box1">
 <h2 className="header-text_about">Our Vision</h2>
@@ -40,7 +41,7 @@ lacus non nisl convallis pretium. Curabitur a nisl interdum, rutrum orci in, int
 </div>
 </div>
 </div>
- 
+
 )
 }
  

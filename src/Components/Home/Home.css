@@ -4,86 +4,82 @@
    font-size: 60%;
    cursor: pointer;
  }
- 
+  
  body {
    margin: 0;
    padding: 0;
    height: 100vh;
    width: 100vw;
    position: relative;
- } 
+ }
+  
+ .all__home {
+   margin: 0;
+   height: 157.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+ }
 
-
-
-.about__container {
-    display: flex;
-    justify-content: center;
-    height: 90rem;
-   }
-    
-   .all__home {
-    height: 220rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-   }
-    
-   .about-text__box1 {
-    margin: 3rem;
-   }
-    
-   .about-text__box2 {
-    margin-top: 3rem;
-   }
-    
-   .header-text_about{
-    display: flex;
-    align-self: flex-start;
-    color:teal;
-    font-weight: 400;
-    font-size: 3rem;
-   }
-    
-    
-    
-   .img-text__box {
-    width: 130rem;
-    max-width: 100%;
-    border-style: solid;
-   }
-    
-   .about_pic{
+ .about__container {
+  display: flex;
+  justify-content: center;
+  height: 96.25rem;
+}
+  
+ .about-text__box1 {
+   margin: 3rem;
+ }
+  
+ .about-text__box2 {
+   margin-top: 3rem;
+ }
+  
+ .header-text_about {
+   display: flex;
+   align-self: flex-start;
+   color: teal;
+   font-weight: 400;
+   font-size: 3rem;
+ }
+  
+ .img-text__box {
+   width: 80rem;
+   max-width: 100%;
+   border-style: solid;
+ }
+  
+ .about_pic {
    width: 100%;
-   }
-    
-   .about-text {
-      font-size: 1.5rem;
-   }
-   
-   .stock-photo {
-      max-width: 100%;
-      width: 130rem;
-      height: 80rem;   
-   }
-    
-   .carousel-container {
-    display: flex;
-    justify-content: center;
-   }
-    
-   .carousel-head_text{
-    font-size: 5rem;
-    color:teal;
-   }
-    
-   .carousel-text{
-    font-size: 3.5rem;
-   }
-    
-   .carousel-caption {
-      bottom:25rem;
-      color:black;
-      font-weight: 600;
-   }
+ }
+  
+ .about-text {
+   font-size: 1.5rem;
+ }
 
-   
+
+ /* CAROUSEL */
+  
+
+ .carousel-container {
+   display: flex;
+   justify-content: center;
+ }
+
+
+  
+ .carousel-head_text {
+   font-size: 5rem;
+   color: teal;
+ }
+  
+ .carousel-text {
+   font-size: 3.5rem;
+ }
+  
+ .carousel-caption {
+   bottom: 25rem;
+   color: black;
+   font-weight: 600;
+ }
+
